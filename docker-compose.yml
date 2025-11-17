@@ -1,0 +1,9 @@
+services:
+  mc:
+    environment: 
+      LD_BIND_NOW: 1
+    image: mc-server
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./mc:/mc
