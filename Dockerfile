@@ -1,4 +1,4 @@
-FROM registry.terreactive.ch/dockerhub/library/eclipse-temurin:21-jre
+FROM eclipse-temurin:21-jre
 
 WORKDIR /mc
 
